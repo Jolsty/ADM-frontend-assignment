@@ -1,23 +1,23 @@
-# React Template
+# ADM-frontend-test
 
-Hello World template that runs on React 18, Webpack 5, Babel, ESLint, Prettier and Tailwind 3. It also includes the Montserrat font, just because I like it.
+## Getting Started
 
-# Notes
+First, clone this repository:
 
-This is a React template (for anyone that doesn't want to use CRA).
+```bash
+git clone git@github.com:Jolsty/ADM-frontend-test.git
+```
 
-It was developed and tested on `node (16.14.2)` with `npm (8.5.0)`.
+Then, assuming that you have Node (`v16.14.2` or higher) and NPM (`v8.5.0` or higher) on your machine, install all the packages (assuming that you have the latest NodeJS and NPM versions installed):
 
-If you start a repository from this template, you should remember to change package.json metadata according to your needs.
+```bash
+npm i
+```
 
-# How to run
+Then, run the development server:
 
-`npm i` to install all dependencies.
+```bash
+npm start
+```
 
-`npm run start` to start a local development server.
-
-`npm run build` to build a production application.
-
-# Vanilla version
-
-`git checkout master`
+And finally open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
