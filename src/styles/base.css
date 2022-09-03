@@ -2,6 +2,6 @@
 
 @layer base {
   body {
-    @apply bg-customBg text-customBlack tracking-wide scroll-smooth font-light;
+    @apply h-full w-full bg-customBg text-customBlack tracking-wide scroll-smooth font-normal pb-8 overflow-x-hidden;
   }
 }
