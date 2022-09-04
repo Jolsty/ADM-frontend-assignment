@@ -1,7 +1,7 @@
 {
   "name": "adm-frontend-test",
   "version": "1.0.0",
-  "description": "This is the template I sometimes use to create new react apps ",
+  "description": "This is the application created for the frontend assignment for ADM Media Consulting.",
   "main": "src/js/index.js",
   "scripts": {
     "start": "webpack serve --mode development --config webpack.config.dev.js",
@@ -21,13 +21,17 @@
   "license": "",
   "homepage": "https://github.com/Jolsty/ADM-frontend-test",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
     "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.29.2",
     "lodash.debounce": "^4.0.8",
     "lodash.isempty": "^4.4.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
